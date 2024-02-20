@@ -164,7 +164,7 @@ const Login = props => {
       return false;
     }
     setPassword(password);
-    setIsPassword(null);
+    // setIsPassword(null);
     return true;
   };
 
@@ -174,7 +174,7 @@ const Login = props => {
 
     if (!Regex.validateEmail(forgotEmail)) {
       isValid = false;
-      editErrorState.email = 'Please enter valid email address';
+      // editErrorState.email = 'Please enter valid email address';
     } else {
       editErrorState.email = null;
     }
