@@ -121,7 +121,7 @@ const staticLocation = {
 
 // Sample user data
 const sampleUsers = [
-  { id: 1, name: 'User1', latitude: 19.3284081, longitude:  77.1559655 },
+  { id: 1, name: 'User1', latitude: 19.9895, longitude:  73.7229 },
   { id: 2, name: 'User2', latitude: 37.7748, longitude: -122.4195 },
   // Add more user data as needed
 ];
